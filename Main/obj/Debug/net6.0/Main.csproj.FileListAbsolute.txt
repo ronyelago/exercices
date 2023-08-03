@@ -1,0 +1,15 @@
+/home/ronye/sources/Rank/Main/bin/Debug/net6.0/Main
+/home/ronye/sources/Rank/Main/bin/Debug/net6.0/Main.deps.json
+/home/ronye/sources/Rank/Main/bin/Debug/net6.0/Main.runtimeconfig.json
+/home/ronye/sources/Rank/Main/bin/Debug/net6.0/Main.dll
+/home/ronye/sources/Rank/Main/bin/Debug/net6.0/ref/Main.dll
+/home/ronye/sources/Rank/Main/bin/Debug/net6.0/Main.pdb
+/home/ronye/sources/Rank/Main/obj/Debug/net6.0/Main.csproj.AssemblyReference.cache
+/home/ronye/sources/Rank/Main/obj/Debug/net6.0/Main.GeneratedMSBuildEditorConfig.editorconfig
+/home/ronye/sources/Rank/Main/obj/Debug/net6.0/Main.AssemblyInfoInputs.cache
+/home/ronye/sources/Rank/Main/obj/Debug/net6.0/Main.AssemblyInfo.cs
+/home/ronye/sources/Rank/Main/obj/Debug/net6.0/Main.csproj.CoreCompileInputs.cache
+/home/ronye/sources/Rank/Main/obj/Debug/net6.0/Main.dll
+/home/ronye/sources/Rank/Main/obj/Debug/net6.0/ref/Main.dll
+/home/ronye/sources/Rank/Main/obj/Debug/net6.0/Main.pdb
+/home/ronye/sources/Rank/Main/obj/Debug/net6.0/Main.genruntimeconfig.cache
