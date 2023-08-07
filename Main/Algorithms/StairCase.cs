@@ -5,9 +5,10 @@ namespace Main.Algorithms;
 public class StairCase
 {
     
-    public void GenerateStair(int n)
+    public List<string> GenerateStair(int n)
     {
         List<string> list = new();
+        List<string> stairList = new();
         StringBuilder builder = new();
         
         for (int i = 0; i < n; i++)
@@ -25,7 +26,9 @@ public class StairCase
                 builder.Append(item);
             }
             
-            Console.WriteLine(builder.ToString());
+            stairList.Add((builder.ToString()));
         }
+
+        return stairList;
     }
 }

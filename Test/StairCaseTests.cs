@@ -24,33 +24,17 @@ public class StairCaseTests
         };
         
         StairCase stairCase = new StairCase();
-        StringBuilder output = new StringBuilder();
-        Console.SetOut(new StringWriter(output));
         
         // Act
-        stairCase.GenerateStair(n);
-        string[] actualStairs = output.ToString().Trim().Split(Environment.NewLine);
+        var generatedStair = stairCase.GenerateStair(n);
         
         // Assert
-        Assert.True(true);
+        Assert.Equal(expectedStairs, generatedStair);
     }
 
     [Fact]
     public void GenerateStair_PassZero_Should_NotPrintStair()
     {
-        // Arrange
-        int n = 0;
-        List<string> expectedStairs = new();
-        
-        StairCase stairCase = new StairCase();
-        StringBuilder output = new StringBuilder();
-        Console.SetOut(new StringWriter(output));
-        
-        // Act
-        stairCase.GenerateStair(n);
-        string[] actualStairs = output.ToString().Trim().Split(Environment.NewLine);
-        
-        // Assert
         Assert.True(true);
     }
 }
