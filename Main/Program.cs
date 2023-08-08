@@ -6,14 +6,11 @@ class Program
 {
     public static void Main(string[] args)
     {
-        StairCase stairCase = new();
+        Candles candles = new();
 
-        Console.WriteLine("Type a number for the stair: ");
-        var stair = stairCase.GenerateStair(int.Parse(Console.ReadLine()));
+        Console.WriteLine("Digite a altura das velas:");
+        var candleList = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(c => int.Parse(c)).ToList();
 
-        foreach (string degree in stair)
-        {
-            Console.WriteLine(degree);
-        }
+        Console.WriteLine($"Number of tallest: {candles.BirthdayCakeCandles(candleList)}");
     }
 }
